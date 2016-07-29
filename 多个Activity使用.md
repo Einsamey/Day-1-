@@ -225,6 +225,14 @@ public class Pen implements Parcelable{
 2、实例化静态内部对象CREATOR，实现接口Parcelable.Creator 。 以上这两步系统都已经帮我们自动做好了
 
 3、自己写写我们所需要的构造方法，变量的get和set
+##调用另一个Activity并且返回结果
+* 定义一个请求码常量  eg：final int CODE =0x77
+* startActivityForResult（intent，CODE）
+* setResult（0x77，intent）
+* 在MainActivity中重写方法onActivityResult（）{  判断是否为待处理的结果，获取传递的数据包 data.getExtras()}
+
+
+
 
 
 
