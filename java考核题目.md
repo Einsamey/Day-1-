@@ -18,7 +18,6 @@
         
         System.out.println( i1 == i2 );
         System.out.println( i3 == i4);
-        System.out.println( !s1.equals(s2) );
         System.out.println( s1 == s2 );
         System.out.println( !s1.equals(s2) );
         System.out.println( s1 == s3 );
@@ -30,7 +29,10 @@
 
 #### 3.试着分析( 文字加代码 )至少一种自己熟悉的 java 设计模式
 #### 4.写出对 static final 的理解
-#### 5.将以下代码改成依赖注入的形式(提示: 构造方法注入，Setter方法注入，接口注入，注解注入  【任意选择一种即可】)，
+#### 5.利用java代码分析回调机制
+#### 6.内存溢出（OutOfMemoryError）和内存泄漏的区别，试着分析（可以利用 java代码，或者Android具体情形）
+#### 7.将以下代码改成依赖注入的形式(提示: 构造方法注入，Setter 方法注入，接口注入，注解注入  【任意选择一种即可】)，
+
 ```java
 public class Team {
     People people;
@@ -41,8 +43,8 @@ public class Team {
 }
 
 ```
-#### 6.至少完成一个
+#### 8.至少完成一个(任意一种计算机语言【兄弟别用 opencv 】)
 * 给定一个图片路径（d://test.jpg）利用代码将它复制到（d://test1.jpg）
 * 遍历D盘所有文件输出以（.txt）结尾的文件名称
-#### 7.写下在实验室一年你学到的东西，以及今后的打算
-
+#### 9.ArrayList 和 LinkedList 的区别，对可变参数的理解(可以写出代码)
+#### 10 写下在实验室一年你学到的东西，以及今后的打算（语言不限 eg：English）
