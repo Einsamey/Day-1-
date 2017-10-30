@@ -36,7 +36,7 @@ public class Team {
     People people;
 
     public Team() {
-        this.people = new People("android",5);
+        this.people = new People();
     }
 }
 
