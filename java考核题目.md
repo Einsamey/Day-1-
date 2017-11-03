@@ -26,12 +26,7 @@
         System.out.println( s1 == s9 );
         System.out.println( s3 == ( s5 + s8) );
 ```
-
-#### 3.试着分析( 文字加代码 )至少一种自己熟悉的 java 设计模式
-#### 4.写出对 static final 的理解
-#### 5.利用java代码分析回调机制
-#### 6.内存溢出（OutOfMemoryError）和内存泄漏的区别，试着分析（可以利用 java代码，或者Android具体情形）
-#### 7.将以下代码改成依赖注入的形式(提示: 构造方法注入，Setter 方法注入，接口注入，注解注入  【任意选择一种即可】)，
+#### 3.将以下代码改成依赖注入的形式(提示: 构造方法注入，Setter 方法注入，接口注入，注解注入  【任意选择一种即可】)，
 
 ```java
 public class Team {
@@ -43,6 +38,11 @@ public class Team {
 }
 
 ```
+#### 4.试着分析( 文字加代码 )至少一种自己熟悉的 java 设计模式
+#### 5.写出对 static final 的理解
+#### 6.利用java代码分析回调机制
+#### 7.内存溢出（OutOfMemoryError）和内存泄漏的区别，试着分析（可以利用 java代码，或者Android具体情形）
+
 #### 8.至少完成一个(任意一种计算机语言【兄弟别用 opencv 】)
 * 给定一个图片路径（d://test.jpg）利用代码将它复制到（d://test1.jpg）
 * 遍历D盘所有文件输出以（.txt）结尾的文件名称
