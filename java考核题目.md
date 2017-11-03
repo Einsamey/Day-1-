@@ -30,7 +30,41 @@
         
 ```
 #### 3.输出结果
-![](http://onf44qqgp.bkt.clouddn.com/17-11-3/95365744.jpg)
+```java
+ class HelloA {
+            public HelloA() {
+                System.out.println("HelloA");
+            }
+
+            {
+                System.out.println("I'm A class");
+            }
+
+            static {
+                System.out.println("static A");
+            }
+        }
+        public class HelloB extends HelloA {
+            public HelloB() {
+                System.out.println("HelloB");
+            }
+
+            {
+                System.out.println("I'm B class");
+            }
+
+            static {
+                System.out.println("static B");
+            }
+
+            public static void main(String[] args) {
+                new HelloB();
+            }
+        }
+
+
+    }
+```
 #### 4.写出至少一种自己熟悉的 java 设计模式
 #### 5.利用java代码分析回调机制
 #### 6.内存溢出（OutOfMemoryError）和内存泄漏的区别，试着分析（可以利用 java代码，或者Android具体情形）
