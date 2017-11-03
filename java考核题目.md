@@ -68,9 +68,21 @@
 #### 4.写出至少一种自己熟悉的 java 设计模式
 #### 5.利用java代码分析回调机制
 #### 6.内存溢出（OutOfMemoryError）和内存泄漏的区别，试着分析（可以利用 java代码，或者Android具体情形）
-
 #### 7.至少完成一个(任意一种计算机语言【兄弟别用 opencv 】)
 * 给定一个图片路径（d://test.jpg）利用代码将它复制到（d://test1.jpg）
 * 遍历D盘所有文件输出以（.txt）结尾的文件名称
 #### 8.ArrayList 和 LinkedList 的区别，对可变参数的理解(可以写出代码)
-#### 9 写下在实验室一年你学到的东西，以及今后的打算（语言不限 eg：English）
+#### 9.分析该多线程可能出现的安全问题并且试着解决
+```java
+class Ticket implements Runnable{
+ private int ticket =100;
+ public void run(){
+   while(true){
+     if(ticket>0){
+       System.out.System.out.println(ticket--);
+     }
+   }
+ }
+}
+```
+#### 10.写下在实验室一年你学到的东西，以及今后的打算（语言不限 eg：English）
